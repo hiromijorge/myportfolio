@@ -1,0 +1,225 @@
+@import "../../styles/Variables.scss";
+.projectsdetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 2em auto;
+  h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .firstRow {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-container {
+      padding: 1em;
+      flex-basis: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+        padding: 1em;
+        border: 2px solid $primaryColor-800;
+      }
+    }
+    .p-container {
+      padding: 1em 0;
+      margin: 0 auto;
+      p {
+        font-size: 1em;
+        font-family: $mainFont;
+      }
+    }
+  }
+  .desc-container {
+    background-color: $primaryColor-800;
+    margin-top: 2em;
+    padding: 2em;
+    p {
+      font-size: 1.2em;
+      font-family: $mainFont;
+    }
+  }
+  .next-container {
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: red;
+    .next-icon {
+      font-size: 3em;
+      color: black;
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 80px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .projectsdetails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    h1 {
+      font-size: 1.7em;
+      font-weight: 500;
+    }
+    .firstRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .p-container {
+        padding: 1em 0;
+        p {
+          font-size: 1.1em;
+          font-family: $mainFont;
+        }
+      }
+    }
+    .desc-container {
+      background-color: $primaryColor-800;
+      padding: 2em;
+      p {
+        font-size: 1.3em;
+        font-family: $mainFont;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .projectsdetails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    h1 {
+      font-size: 1.7em;
+      font-weight: 500;
+    }
+    .firstRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-container {
+        img {
+          border: 2px solid $primaryColor-800;
+          width: 200px;
+          height: 150px;
+        }
+      }
+      .p-container {
+        padding: 1em 0;
+        p {
+          font-size: 1.2em;
+          font-family: $mainFont;
+        }
+      }
+    }
+    .desc-container {
+      background-color: $primaryColor-800;
+      padding: 2em;
+      p {
+        font-size: 1.3em;
+        font-family: $mainFont;
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .projectsdetails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    h1 {
+      font-size: 1.7em;
+      font-weight: 500;
+    }
+    .firstRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-container {
+        img {
+          border: 2px solid $primaryColor-800;
+          width: 200px;
+          height: 150px;
+        }
+      }
+      .p-container {
+        padding: 1em 0;
+        p {
+          font-size: 1.4em;
+          font-family: $mainFont;
+        }
+      }
+    }
+    .desc-container {
+      background-color: $primaryColor-800;
+      padding: 2em;
+      p {
+        font-size: 1.4em;
+        font-family: $mainFont;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1000px) {
+  .projectsdetails-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    h1 {
+      font-size: 1.7em;
+      font-weight: 500;
+    }
+    .firstRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-container {
+        img {
+          border: 2px solid $primaryColor-800;
+          width: 200px;
+          height: 150px;
+        }
+      }
+      .p-container {
+        padding: 1em 0;
+        p {
+          font-size: 1.6em;
+          font-family: $mainFont;
+        }
+      }
+    }
+    .desc-container {
+      background-color: $primaryColor-800;
+      padding: 2em 4em;
+      p {
+        font-size: 1.6em;
+        font-family: $mainFont;
+      }
+    }
+  }
+}

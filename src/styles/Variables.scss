@@ -1,0 +1,20 @@
+//COLORS
+$blackColor: rgba(0, 0, 0, 1);
+$whiteColor: rgb(252, 252, 252);
+$primaryColor-500: rgba(245, 241, 241, 1);
+$primaryColor-800: rgba(234, 234, 234, 1);
+$primaryColor-850: rgba(187, 186, 186, 1);
+$primaryColor-900: rgb(146, 146, 146);
+
+//FONTS
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Times New Roman", Times, Serif;
+$mainFont: "Handlee", cursive;
+$gugiFont: "Gugi", cursive;
+
+//FUNCTIONS
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}

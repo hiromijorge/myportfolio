@@ -1,0 +1,51 @@
+@import "../../styles/Variables.scss";
+
+.footer-container {
+  max-width: 100%;
+  background-color: $primaryColor-500;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  background-color: $primaryColor-500;
+  padding: 1em 2em;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .footer-icon {
+    font-size: 2em;
+    color: #8a168c;
+  }
+  .icon-2 {
+    color: #399bf5;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  footer {
+    padding: 1em 1em;
+    p {
+      font-size: 0.9em;
+    }
+    .footer-icon {
+      font-size: 1.8em;
+    }
+  }
+}
+
+@media screen and (max-width: 280px) {
+  footer {
+    padding: 1em 1em;
+    p {
+      font-size: 0.8em;
+    }
+    .footer-icon {
+      font-size: 1.6em;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+.navbar-container {
+  max-width: 100%;
+  background-color: #f5f1f1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-container .navbar {
+  min-height: 4em;
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 2em;
+}
+
+.navbar-container .title a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-container .title h1 {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.navbar-container .navList {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar-container .navList .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 4em;
+  right: 0;
+  background-color: #f5f1f1;
+  width: 100%;
+}
+
+.navbar-container .navList .links li {
+  margin-top: 0.5em;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-container .navList .links li a:hover {
+  background-color: #929292;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  color: #fcfcfc;
+}
+
+.navbar-container .navList ul {
+  display: none;
+}
+
+.navbar-container .navList ul li {
+  margin-right: 1em;
+  list-style-type: none;
+}
+
+.navbar-container .navList ul li a {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.navbar-container .navList .icon {
+  font-size: 1.8em;
+}
+
+.navbar-container .navList .icon:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=NavbarStyle.css.map */

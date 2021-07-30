@@ -1,0 +1,71 @@
+@import "../../styles/Variables.scss";
+
+.navbar-container {
+  max-width: 100%;
+  background-color: $primaryColor-500;
+  position: sticky;
+  top: 0;
+  .navbar {
+    min-height: 4em;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+    @include flex;
+    padding: 1em 2em;
+  }
+  .title {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    h1 {
+      font-size: 1.1em;
+      font-weight: 400;
+    }
+  }
+  .navList {
+    flex: 1;
+    @include flex(flex-end);
+    .links {
+      @include flex;
+      flex-direction: column;
+      position: absolute;
+      top: 4em;
+      right: 0;
+      background-color: $primaryColor-500;
+      width: 100%;
+      li {
+        margin-top: 0.5em;
+        width: 100%;
+        text-align: center;
+        a {
+          &:hover {
+            background-color: $primaryColor-900;
+            transition: background-color 0.5s;
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+    ul {
+      display: none;
+      li {
+        margin-right: 1em;
+        list-style-type: none;
+        a {
+          font-size: 1em;
+          text-decoration: none;
+          color: $blackColor;
+          display: block;
+        }
+      }
+    }
+
+    .icon {
+      font-size: 1.8em;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

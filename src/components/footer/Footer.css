@@ -1,0 +1,58 @@
+.footer-container {
+  max-width: 100%;
+  background-color: #f5f1f1;
+}
+
+footer {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f1f1;
+  padding: 1em 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer .footer-icon {
+  font-size: 2em;
+  color: #8a168c;
+}
+
+footer .icon-2 {
+  color: #399bf5;
+}
+
+@media screen and (max-width: 350px) {
+  footer {
+    padding: 1em 1em;
+  }
+  footer p {
+    font-size: 0.9em;
+  }
+  footer .footer-icon {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  footer {
+    padding: 1em 1em;
+  }
+  footer p {
+    font-size: 0.8em;
+  }
+  footer .footer-icon {
+    font-size: 1.6em;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

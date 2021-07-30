@@ -1,0 +1,320 @@
+.projectsdetails-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
+.projectsdetails-container h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.projectsdetails-container .firstRow {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectsdetails-container .firstRow .img-container {
+  padding: 1em;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectsdetails-container .firstRow .img-container img {
+  width: 100%;
+  padding: 1em;
+  border: 2px solid #eaeaea;
+}
+
+.projectsdetails-container .firstRow .p-container {
+  padding: 1em 0;
+  margin: 0 auto;
+}
+
+.projectsdetails-container .firstRow .p-container p {
+  font-size: 1em;
+  font-family: "Handlee", cursive;
+}
+
+.projectsdetails-container .desc-container {
+  background-color: #eaeaea;
+  margin-top: 2em;
+  padding: 2em;
+}
+
+.projectsdetails-container .desc-container p {
+  font-size: 1.2em;
+  font-family: "Handlee", cursive;
+}
+
+.projectsdetails-container .next-container {
+  width: 100%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: red;
+}
+
+.projectsdetails-container .next-container .next-icon {
+  font-size: 3em;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 80px;
+}
+
+.projectsdetails-container .next-container .next-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 300px) {
+  .projectsdetails-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+  .projectsdetails-container h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+  }
+  .projectsdetails-container .firstRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectsdetails-container .firstRow .p-container {
+    padding: 1em 0;
+  }
+  .projectsdetails-container .firstRow .p-container p {
+    font-size: 1.1em;
+    font-family: "Handlee", cursive;
+  }
+  .projectsdetails-container .desc-container {
+    background-color: #eaeaea;
+    padding: 2em;
+  }
+  .projectsdetails-container .desc-container p {
+    font-size: 1.3em;
+    font-family: "Handlee", cursive;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .projectsdetails-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+  .projectsdetails-container h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+  }
+  .projectsdetails-container .firstRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectsdetails-container .firstRow .img-container img {
+    border: 2px solid #eaeaea;
+    width: 200px;
+    height: 150px;
+  }
+  .projectsdetails-container .firstRow .p-container {
+    padding: 1em 0;
+  }
+  .projectsdetails-container .firstRow .p-container p {
+    font-size: 1.2em;
+    font-family: "Handlee", cursive;
+  }
+  .projectsdetails-container .desc-container {
+    background-color: #eaeaea;
+    padding: 2em;
+  }
+  .projectsdetails-container .desc-container p {
+    font-size: 1.3em;
+    font-family: "Handlee", cursive;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .projectsdetails-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+  .projectsdetails-container h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+  }
+  .projectsdetails-container .firstRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectsdetails-container .firstRow .img-container img {
+    border: 2px solid #eaeaea;
+    width: 200px;
+    height: 150px;
+  }
+  .projectsdetails-container .firstRow .p-container {
+    padding: 1em 0;
+  }
+  .projectsdetails-container .firstRow .p-container p {
+    font-size: 1.4em;
+    font-family: "Handlee", cursive;
+  }
+  .projectsdetails-container .desc-container {
+    background-color: #eaeaea;
+    padding: 2em;
+  }
+  .projectsdetails-container .desc-container p {
+    font-size: 1.4em;
+    font-family: "Handlee", cursive;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .projectsdetails-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+  }
+  .projectsdetails-container h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+  }
+  .projectsdetails-container .firstRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectsdetails-container .firstRow .img-container img {
+    border: 2px solid #eaeaea;
+    width: 200px;
+    height: 150px;
+  }
+  .projectsdetails-container .firstRow .p-container {
+    padding: 1em 0;
+  }
+  .projectsdetails-container .firstRow .p-container p {
+    font-size: 1.6em;
+    font-family: "Handlee", cursive;
+  }
+  .projectsdetails-container .desc-container {
+    background-color: #eaeaea;
+    padding: 2em 4em;
+  }
+  .projectsdetails-container .desc-container p {
+    font-size: 1.6em;
+    font-family: "Handlee", cursive;
+  }
+}
+/*# sourceMappingURL=ProjectsDetails.css.map */
